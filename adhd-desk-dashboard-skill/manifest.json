@@ -1,0 +1,11 @@
+{
+  "name": "adhd-desk-dashboard-skill",
+  "version": "1.0.0",
+  "title": "ADHD Desk Dashboard Skill",
+  "description": "Creates low-cognitive-load printable workflow dashboards and Linear backlog plans for ADHD/TDAH-friendly solo execution.",
+  "language": "pt-BR",
+  "status": "Active",
+  "tags": ["workflow", "adhd", "tdah", "accessibility", "execution", "dashboard", "linear", "paper-os"],
+  "entrypoint": "SKILL.md",
+  "non_clinical_boundary": true
+}

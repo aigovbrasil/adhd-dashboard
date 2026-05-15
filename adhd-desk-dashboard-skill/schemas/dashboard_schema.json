@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ADHD Desk Dashboard Schema",
+  "type": "object",
+  "required": ["objective", "workflows", "definition_of_done"],
+  "properties": {
+    "objective": {"type": "string"},
+    "workflows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "time_box", "input", "output", "dod"],
+        "properties": {
+          "name": {"type": "string"},
+          "time_box": {"type": "string"},
+          "input": {"type": "string"},
+          "output": {"type": "string"},
+          "save_location": {"type": "string"},
+          "command": {"type": "string"},
+          "dod": {"type": "string"}
+        }
+      }
+    },
+    "definition_of_done": {"type": "string"}
+  }
+}
